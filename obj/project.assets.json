@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "swed32/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/swed32.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/swed32.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "swed32/1.0.4": {
+      "sha512": "t6osC20wck8X80JsNcTU6ISNOcGQwHwFIuPhE2TlqXzP/k5y21p5bSLDnnhVIUtTfMbuXGwSkg6nz62y0kT6fg==",
+      "type": "package",
+      "path": "swed32/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "New Project (15).png",
+        "lib/net6.0/swed32.dll",
+        "swed32.1.0.4.nupkg.sha512",
+        "swed32.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "swed32 >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Cracking\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Cracking\\Desktop\\MY_Project\\Game_Hack\\C#\\CsAimbotEsp\\CsAimbotEsp.csproj",
+      "projectName": "CsAimbotEsp",
+      "projectPath": "C:\\Users\\Cracking\\Desktop\\MY_Project\\Game_Hack\\C#\\CsAimbotEsp\\CsAimbotEsp.csproj",
+      "packagesPath": "C:\\Users\\Cracking\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Cracking\\Desktop\\MY_Project\\Game_Hack\\C#\\CsAimbotEsp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Cracking\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "swed32": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
